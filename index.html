@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Google Homepage</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
               
     <body>
@@ -15,7 +16,8 @@
         </header>      
                 <!-- GOOGLE IMG -->  
                 <div class="image">
-                  <a href="#" id="google_logo"><img src="./images/google.png"/></a>
+                  <a href="#" id="image-wide"><img src="./images/google.png"/></a>
+                  <a href="#" id="image-sm"><img src="./images/google-sm.jpg"/></a>
                 </div>
                 
                 <!-- FORM SEARCH -->  
@@ -24,11 +26,15 @@
                     <input type="text" id="form-search" placeholder="Search Google or type URL">
                   </form>
                 </div>  
+
+                <div id ="popular-searches">
+                    <a href="#">See what the world searched for in 2018</a>
+                </p>
                 
                 <!-- BUTTONS -->
                 <div class= "buttons">  
-                  <input type="submit" value="Google Search" id="google_search">
-                  <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+                  <button id="google_search">Google Search</button>
+                  <button id="im_feeling_lucky">I'm Feeling Lucky</button>
                 </div>
                   
                 <!-- FOOTER -->
